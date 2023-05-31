@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> 천빌라</title>
+</head>
+<style>
+	.wrap{width: 1000px; margin:auto;}
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes leftfade{
+    0% {left: -200px; opacity: 0%;}
+	100%{left: 0px; opacity: 100%}
+	}
+
+	#a {animation-name: leftfade;
+		animation-duration: 1.2s;
+		position: absolute;
+		transition: ease-in;}
+
+
+	#b {animation-name: shake;
+		animation: shake 3s;
+		animation-iteration-count: infinite;
+		}
+
+
+	#c {animation-name: shake2;
+		animation: shake 4s;
+		animation-iteration-count: infinite;
+		}
+
+@keyframes shake{
+0% {
+    transform: translate(0px, 0px) rotate(5deg);
+}
+
+50% {
+    transform: translate(100px, 0px) rotate(-5deg);
+}
+
+}
+
+@keyframes shake2{
+0% {
+    transform: translate(0px, 0px) rotate(-8deg);
+}
+
+50% {
+    transform: translate(120px, 0px) rotate(8deg);
+}
+
+}
+
+
+
+		body, header, html,section {margin:0;}
+		.flex {display: flex;}
+		.bg-blue{background-color: blue;}
+		.bg-red{background-color: red;}
+		.bg-yellow{background-color: yellow;}
+		.bg-gray{background-color: gray;}
+		.bg-black{background-color: black;}
+	.col-1{height: 1080px; margin: 0px 0px;}
+	.col-2{height: 1500px; margin: 0px 0px;}
+	.col-3{height: 3000px; margin: 0px 0px;}
+	.col-4{height: 550px; width: 800px; margin: -500px 800px; }
+	.col-5{height: 1200px; width: 1400px; margin-top: 600px;}
+	.col-6{height: 700px; width: 800px; margin: 0px 900px;}
+	.col-7{height: 800px; width: 1000px; margin: -150px 0px;}
+	.col-8{height: 1080px; margin: 0px 0px;}
+	.col-9{height: 500px; margin: -200px 0px; }
+	.col-10{height: 400px; margin: 0px 0px;}
+	.col-11{height: 800px; margin: 0px 0px;}
+	.col-12{height: 800px; width: 800px; margin-left: 310px;}
+	.col-13{height: 600px; margin: 0px 0px;}
+	.col-15{height: 300px; margin:0px 750px; padding-top: 200px; display: inline-block; z-index: 0; position: absolute;}
+	.col-16{height: 1000px; margin:0px 0px;}
+	.col-17{height:500px; width:500px; marign: 0px 0px; display: inline-block; margin-left: 170px; margin-top: 200px;}
+	.col-18{height:300px; marign: 0px 0px;}
+	.col-19{height: 300px; width: 300px; margin-top: 150px; margin-left: 580px; display: inline-block; position: absolute; z-index: 1; position: relative;}
+	.col-20{height: 80px; margin-top: 250px; width: 1350px;display: inline-block; padding-top: 45px; margin-left: 200px;}
+
+	.bg-section1{background: url(one.png);
+		background-size: 110% auto;
+		background-position-y: -15px;
+		background-position-x: -100px;}
+	.bg-section2{background: url(two.png);
+		background-size: 100% auto;}
+	.bg-section3{background: url(three.png);
+		background-size: 100% auto;}
+	.bg-section4{background: url(for.png);
+		background-size: 100% auto;
+		opacity: 40%;
+		}
+	.bg-section5{background: url(five.png);
+		background-size: 100% auto;
+		opacity: 60%}
+	.bg-section6{background: url(six.png);
+		background-size: 100% auto;
+		opacity: 80%}
+	.bg-section7{background: url(seven.png);
+		background-size: 100% auto;}
+	.bg-section8{background: url(eight.png);
+		background-size: 100% auto;}
+	.bg-section9{background: url(nine.png);
+		background-size: 100% auto;}
+	.bg-section10{background: url(ten.png);
+		background-size: 100% auto;}
+	.bg-section11{background: url(eleven.png);
+		background-size: 100% auto;}
+	.bg-section12{background: url(oneth.png);
+		background-size: 130% auto;
+		}
+	.bg-section13{background: url(what.png);
+		background-size: 120% auto;
+		}
+
+		h1{margin: 0px 0px; font-weight:normal; font-style: normal; font-size: 10em; font-family: 'SBAggroB'}
+
+p{font-size: 2em; font-weight:500; font-family: 'Noto Serif KR'; color: white;}
+
+.rotate {
+  transform: rotate(0deg);
+}
+
+.a2 {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 80px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+
+
+
+
+
+
+</style>
+<body>
+
+<section>
+<div class="col-1 bg-section1 flex">
+	<div class="col-19 bg-section12" id="a"></div><div class="col-15">
+	<h1 style="text-align: center; color: white;">천빌라</h1>
+	</div></div>
+</section>
+
+
+<div class="col-18 bg-black"></div>
+
+<section>
+<div class="col-2 bg-black">
+<div class="col-16 bg-section2"><div class="col-16 bg-section3"></div></div></div>
+</section>
+
+<section>
+	<div class="col-3 bg-black">
+	<div class="col-4 bg-section4 flo_img" id="b"></div>
+	<div class="col-5 bg-section5" id="c"></div>
+	<div class="col-6 bg-section6" id="b"></div>
+	<div class="col-7 bg-section7" id="c"></div>
+</div></div>
+	<div class="flex">
+		<div class="col-8">
+			<img src="what.png" style="position: absolute;z-index: 1; margin:0px;"></div>
+	<iframe width="1800" height="1000" src="https://www.youtube.com/embed/2RHbvH0sR1Y?start=37&autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;" allowfullscreen></iframe></div>
+</section>
+
+<section>
+<div class="col-10 bg-black"></div>
+</section>
+
+<section>
+<div class="col-11 flex bg-section9">
+	<div class="col-17 flex">
+	<p> 학생! </p>
+	<p>등기부등본 한 번 떼봐.</p>
+	<p>내가 지금 사기를 당했는데,</p>
+	<p> 같은 경우일 수도 있을 것 같아. </p></div>
+<div class="col-12 bg-section10"></div></div></div>
+</section>
+
+<section>
+	<div class="col-13 bg-black"><a class="col-20 a2">등기부 등본을 확인한다.</a></div>
+</section>
+</body>
+</html>
